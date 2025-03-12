@@ -1,0 +1,86 @@
+name: flutter_application_2
+description: "A new Flutter project."
+publish_to: 'none'  # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  badges: ^3.0.2
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.9.0
+  cloud_firestore: ^5.6.0
+  firebase_auth: ^5.3.3
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.14.3"  # Ensure it's directly under dev_dependencies
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/pngwing.png"
+
+flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add your assets and other flutter configurations under a single flutter section
+  assets:
+    - images/login_shop.png
+    - images/position.png
+    - images/shop_signup.png
+    - images/shop_ifc.png
+    - images/notification 1.png
+    - images/Welcome.jpg
+    - images/shop_stock_edit.png
+    - images/Shop your stoke View.png
+    - images/Sales rep login.png
+    - images/salesrep_signup.png
+    - images/salesrep_ifc.png
+    - images/areamanager_login.png
+    - images/areamanager_signup.png
+    - images/areamanager_ifc.png
+    - images\cocacola.png
+    - images/stock_sprite.png
+    - images/stock_portello.png
+    - images/stock_fanta.png
+    - images/salesrep_from shop_ifc.png
+    - images/salesrep_stock_editing.png
+    - images/stock-icon.png
+    - images/sales rep-icon.png
+    - images/Area-manager-icon.png
+    - images/cocbottle.png
+    - images/fantabottle.png
+    - images/portellobottle.png
+    - images/spritebottle.png
+    - images/salerep_view_from_shop_side.png
+    - images/area_manager_stock_view_from_shop_andsalesrep.png
+    - images/future status.png
+    - images/1.png
+    - images/Sales Rep stock View.png
+    - images/salesrep_view_cocacola.png
+    - images/salesrep_view_fanta.png
+    - images/salesrep_view_portello.png
+    - images/salesrep_view_sprite.png
+    - images/areamanager_view_to_others_cocacola.png
+    - images/areamanager_view_to_others_fanta.png
+    - images/areamanager_view_to_others_portello.png
+    - images/areamanager_view_to_others_sprite.png
+    - images/Sales rep view_from_shop_side.png
+    - images/areamanager_view_from_shop_side.png.png
+    - images/shop_registration.png
+    - images/Sales rep view Shop Request.png
+    - images/Area Manager Company Stock View.png
+    - images/Scocacola.png
+    - images/Shop_Notification.png
+    - images/Sales_rep_Notification.png
+    - images/Sales_repview_Shop _stoke.png
+    - images/SalesRep_List.png
